@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Mtanzania</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="maintop-nav">
+            <div class="lefnav-menu">
+                <div class="mainbar"><i class="fa-solid fa-bars" style="color: #0f0f10;"></i></div>
+                <div class="youtubeicon">
+                    <img src="data:image/png;base64,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" alt="" class="src">
+            
+                </div>
+            </div>
+            <div class="mainnav-search">
+              <input type="Search" placeholder="Search">
+                <div class="click-search"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #030303;"></i></div>
+                <div class="microphone"><i class="fa-solid fa-microphone fa-xl" style="color: #121212;"></i></div>
+            </div>
+            
+            <div class="rightnav-menu">
+                <div class="golive"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 32 32">
+                    <path d="M 6.1015625 6.1015625 C 3.5675625 8.6345625 2 12.134 2 16 C 2 19.866 3.5675625 23.365437 6.1015625 25.898438 L 7.5195312 24.480469 C 5.3465312 22.307469 4 19.308 4 16 C 4 12.692 5.3465312 9.6925313 7.5195312 7.5195312 L 6.1015625 6.1015625 z M 25.898438 6.1015625 L 24.480469 7.5195312 C 26.653469 9.6925312 28 12.692 28 16 C 28 19.308 26.653469 22.307469 24.480469 24.480469 L 25.898438 25.898438 C 28.432437 23.365437 30 19.866 30 16 C 30 12.134 28.432437 8.6345625 25.898438 6.1015625 z M 9.6367188 9.6367188 C 8.0077188 11.265719 7 13.515 7 16 C 7 18.485 8.0077187 20.734281 9.6367188 22.363281 L 11.052734 20.947266 C 9.7847344 19.680266 9 17.93 9 16 C 9 14.07 9.7847344 12.319734 11.052734 11.052734 L 9.6367188 9.6367188 z M 22.363281 9.6367188 L 20.947266 11.052734 C 22.215266 12.319734 23 14.07 23 16 C 23 17.93 22.215266 19.680266 20.947266 20.947266 L 22.363281 22.363281 C 23.992281 20.734281 25 18.485 25 16 C 25 13.515 23.992281 11.265719 22.363281 9.6367188 z M 16 12 A 4 4 0 0 0 16 20 A 4 4 0 0 0 16 12 z"></path>
+                    </svg></div>
+                <div class="notifyme"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+<path d="M32.184,7.888C29.939,6.632,28,5.549,28,4c0-0.552-0.448-1-1-1h-4c-0.552,0-1,0.448-1,1v2v19.75	C20.746,25.256,19.389,25,18,25c-5.514,0-10,4.038-10,9c0,0.338,0,1.662,0,2c0,4.962,4.486,9,10,9s10-4.038,10-9V17.147	c1.726,0.431,4.366,1.801,4.898,4.041c-0.387,2.52-1.776,5.332-1.793,5.365C31.035,26.695,31,26.859,31,27s0,1.792,0,2	s0.101,0.515,0.293,0.707l2,2c0.375,0.375,1.039,0.375,1.414,0C34.923,31.491,40,26.341,40,20c0-0.349,0-1.666,0-2	C40,12.257,35.667,9.834,32.184,7.888z"></path><path fill="#fff" d="M27,4h-2h-2v23.349C21.57,26.498,19.851,26,18,26c-4.971,0-9,3.582-9,8s4.029,8,9,8s9-3.582,9-8V14 c2,0,7,2,7,6c0,3-2,7-2,7l2,2c0,0,5-5,5-11C39,9,27,9,27,4z"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M27,4h-2h-2v23.349C21.57,26.498,19.851,26,18,26c-4.971,0-9,3.582-9,8s4.029,8,9,8s9-3.582,9-8V14c2,0,7,2,7,6c0,3-2,7-2,7l2,2 c0,0,5-5,5-11C39,9,27,9,27,4z"></path>
+</svg></div>
+                <div class="youraccount"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80" height="80" viewBox="0 0 80 80">
+                    <path d="M 39 9 C 32.078125 9 25.671875 12.902344 20.96875 16.722656 C 16.261719 20.546875 13.21875 24.375 13.21875 24.375 L 12.378906 25.429688 L 13.628906 25.925781 C 13.628906 25.925781 14.652344 26.328125 15.761719 27.546875 C 16.867188 28.765625 18 30.738281 18 34 C 18 38.023438 18.695313 41.027344 19.050781 42.316406 C 17.855469 42.855469 17 44.023438 17 45.402344 C 17 46.171875 17.246094 46.914063 17.457031 47.636719 C 17.5625 47.996094 17.667969 48.335938 17.738281 48.597656 C 17.808594 48.863281 17.832031 49.109375 17.832031 49 C 17.832031 50.667969 19.246094 52 20.917969 52 L 21 52 L 21 52.050781 C 21 61.320313 27.664063 69.027344 36.457031 70.6875 C 37.433594 71.472656 38.644531 72 40 72 C 41.355469 72 42.566406 71.472656 43.542969 70.6875 C 52.335938 69.027344 59 61.320313 59 52.050781 L 59 52 L 59.082031 52 C 60.75 52 62.167969 50.667969 62.167969 49 C 62.167969 49.109375 62.191406 48.863281 62.261719 48.597656 C 62.332031 48.335938 62.4375 47.996094 62.542969 47.636719 C 62.753906 46.914063 63 46.171875 63 45.402344 C 63 44.105469 62.238281 43 61.15625 42.425781 C 61.578125 40.554688 63 34.015625 63 29.523438 C 63 19.679688 56.695313 15.453125 51.628906 15.128906 C 51.347656 14.617188 50.671875 13.507813 49.089844 12.222656 C 47.082031 10.597656 43.828125 9 39 9 Z M 39 11 C 43.394531 11 46.140625 12.402344 47.828125 13.777344 C 49.515625 15.148438 50.09375 16.421875 50.09375 16.421875 L 50.359375 17 L 51 17 C 55.074219 17 61 20.148438 61 29.523438 C 61 33.640625 59.558594 40.371094 59.183594 42.066406 C 59.121094 42.089844 59.0625 42.113281 59 42.121094 L 59 38.5 C 59 33.503906 57 30.40625 54.972656 28.671875 C 52.949219 26.941406 50.855469 26.492188 50.855469 26.492188 L 50.277344 26.371094 L 49.890625 26.816406 C 49.890625 26.816406 48.894531 27.988281 46.59375 29.238281 C 44.292969 30.492188 40.746094 31.765625 35.765625 31.765625 C 33.320313 31.765625 29.761719 32.210938 26.675781 33.839844 C 23.820313 35.351563 21.472656 38.089844 21.132813 42.152344 C 21.113281 42.148438 21.097656 42.140625 21.078125 42.136719 C 20.898438 41.582031 20 38.625 20 34 C 20 30.261719 18.632813 27.730469 17.238281 26.203125 C 16.632813 25.535156 16.042969 25.113281 15.53125 24.769531 C 16.378906 23.765625 18.539063 21.269531 22.226563 18.277344 C 26.753906 14.597656 32.84375 11 39 11 Z M 51 19 C 50.449219 19 50 19.449219 50 20 C 50 20.550781 50.449219 21 51 21 C 51.550781 21 52 20.550781 52 20 C 52 19.449219 51.550781 19 51 19 Z M 51 23 C 50.449219 23 50 23.449219 50 24 C 50 24.550781 50.449219 25 51 25 C 51.550781 25 52 24.550781 52 24 C 52 23.449219 51.550781 23 51 23 Z M 50.894531 28.605469 C 51.390625 28.753906 52.398438 29.101563 53.671875 30.191406 C 55.324219 31.605469 57 34.023438 57 38.5 L 57 44.859375 L 58.375 44.308594 C 58.867188 44.105469 59.335938 44 59.5 44 C 60.363281 44 61 44.636719 61 45.398438 L 61 45.402344 C 61 45.597656 60.828125 46.375 60.625 47.074219 C 60.519531 47.421875 60.414063 47.765625 60.328125 48.078125 C 60.246094 48.386719 60.167969 48.613281 60.167969 49 C 60.167969 49.542969 59.714844 50 59.082031 50 L 57 50 L 57 52.050781 C 57 60.425781 50.957031 67.351563 43 68.769531 L 42.71875 68.824219 L 42.503906 69.015625 C 41.832031 69.628906 40.964844 70 40 70 C 39.035156 70 38.167969 69.628906 37.496094 69.015625 L 37.28125 68.824219 L 37 68.769531 C 29.042969 67.351563 23 60.425781 23 52.050781 L 23 50 L 20.917969 50 C 20.285156 50 19.832031 49.542969 19.832031 49 C 19.832031 48.613281 19.753906 48.386719 19.667969 48.078125 C 19.582031 47.765625 19.480469 47.421875 19.375 47.074219 C 19.171875 46.375 19 45.597656 19 45.402344 C 19 44.636719 19.636719 44 20.5 44 C 20.664063 44 21.132813 44.105469 21.625 44.308594 L 23 44.859375 L 23 43.078125 C 23 39.171875 24.972656 37.003906 27.613281 35.609375 C 30.253906 34.214844 33.578125 33.765625 35.765625 33.765625 C 41.089844 33.765625 44.988281 32.390625 47.546875 30.996094 C 49.4375 29.96875 50.394531 29.097656 50.894531 28.605469 Z M 32 44 C 30.894531 44 30 44.894531 30 46 C 30 47.105469 30.894531 48 32 48 C 33.105469 48 34 47.105469 34 46 C 34 44.894531 33.105469 44 32 44 Z M 48 44 C 46.894531 44 46 44.894531 46 46 C 46 47.105469 46.894531 48 48 48 C 49.105469 48 50 47.105469 50 46 C 50 44.894531 49.105469 44 48 44 Z"></path>
+                    </svg></div>    
+            </div>
+
+        </div>
+
+       
+    </nav>
+    <main>
+        <div class="left-nav">
+            <div class="leftitemsnav home"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Home</div>
+
+            <div class="leftitemsnav Shorts"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Shorts</div>  
+
+            <div class="leftitemsnav Subs"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Subscriptions</div> 
+            <hr> 
+            <div class="leftitemsnav Library"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Library</div>  
+            <div class="leftitemsnav History"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>History</div>  
+            <div class="leftitemsnav Watchl"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Watch later</div>
+            <div class="leftitemsnav Liked videos"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Liked videos</div>
+            <div class="leftitemsnav Liked videos"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Cartoon</div>
+            <div class="leftitemsnav Liked videos"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Action Video</div>
+            <div class="leftitemsnav Liked videos"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Romance video</div>
+            <div class="leftitemsnav Liked videos"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>TV Series</div>
+            <div class="leftitemsnav Liked videos"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>African Movies</div>
+            <div class="leftitemsnav Liked videos"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Arabian News</div>
+            <div class="leftitemsnav Liked videos"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Ghost Channels</div>
+            <div class="leftitemsnav Liked videos"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Documentaries</div>
+            <div class="leftitemsnav Liked videos"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Scientific Channels</div>
+            <div class="leftitemsnav Liked videos"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Cuban & Spanish Songs</div>
+            <div class="leftitemsnav Liked videos"><svg width="30px" height="20px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path>
+            </svg>Premier Leagues</div>
+        </div>
+        <div class="right-nav">
+            <div class="main-nav-bar">
+                <div class="main-nav-allitems all" id="allo" style="color: white; background-color: black;">All</div>
+                <div class="main-nav-allitems Music">Music</div>
+                <div class="main-nav-allitems live">live</div>
+                <div class="main-nav-allitems chill">Chill-out Music</div>
+                <div class="main-nav-allitems Gaming">Gaming</div>
+                <div class="main-nav-allitems News">News</div>
+                <div class="main-nav-allitems FreestyleRa">Freestyle Rap</div>
+                <div class="main-nav-allitems Basketball">Basketball</div>
+                <div class="main-nav-allitems Combat Sport">Combat Sport</div>
+            </div>
+            <div class="main-content">
+                <div class="video-card">
+                    <div class="videoimg">
+                        <img src="https://i.ytimg.com/vi/4xDzrJKXOOY/hq720_live.jpg?…AFwAcABBg==&rs=AOn4CLAYB00KwH59qvnKQItLvT_z0EzlkQ" alt="" class="src">
+                    </div>
+                    <div class="card-informa">
+                        <div class="videoname"><span>synthwave radio - beats to chill/game to</span></div>
+                        <div class="channelimg">
+                            <img src="https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s88-c-k-c0x00ffffff-no-rj" alt="" class="src">
+                        </div>
+                        <div class="desc">
+                            <div class="channelname"><span>Lofi Girl</span></div>
+                            <div class="channelviewers"><span>13.1M subscribers</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="videoimg">
+                        <img src="https://i.ytimg.com/vi/4xDzrJKXOOY/hq720_live.jpg?…AFwAcABBg==&rs=AOn4CLAYB00KwH59qvnKQItLvT_z0EzlkQ" alt="" class="src">
+                    </div>
+                    <div class="card-informa">
+                        <div class="videoname"><span>synthwave radio - beats to chill/game to</span></div>
+                        <div class="channelimg">
+                            <img src="https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s88-c-k-c0x00ffffff-no-rj" alt="" class="src">
+                        </div>
+                        <div class="desc">
+                            <div class="channelname"><span>Lofi Girl</span></div>
+                            <div class="channelviewers"><span>13.1M subscribers</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="videoimg">
+                        <img src="https://i.ytimg.com/vi/4xDzrJKXOOY/hq720_live.jpg?…AFwAcABBg==&rs=AOn4CLAYB00KwH59qvnKQItLvT_z0EzlkQ" alt="" class="src">
+                    </div>
+                    <div class="card-informa">
+                        <div class="videoname"><span>synthwave radio - beats to chill/game to</span></div>
+                        <div class="channelimg">
+                            <img src="https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s88-c-k-c0x00ffffff-no-rj" alt="" class="src">
+                        </div>
+                        <div class="desc">
+                            <div class="channelname"><span>Lofi Girl</span></div>
+                            <div class="channelviewers"><span>13.1M subscribers</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="videoimg">
+                        <img src="https://i.ytimg.com/vi/4xDzrJKXOOY/hq720_live.jpg?…AFwAcABBg==&rs=AOn4CLAYB00KwH59qvnKQItLvT_z0EzlkQ" alt="" class="src">
+                    </div>
+                    <div class="card-informa">
+                        <div class="videoname"><span>synthwave radio - beats to chill/game to</span></div>
+                        <div class="channelimg">
+                            <img src="https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s88-c-k-c0x00ffffff-no-rj" alt="" class="src">
+                        </div>
+                        <div class="desc">
+                            <div class="channelname"><span>Lofi Girl</span></div>
+                            <div class="channelviewers"><span>13.1M subscribers</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="videoimg">
+                        <img src="https://i.ytimg.com/vi/4xDzrJKXOOY/hq720_live.jpg?…AFwAcABBg==&rs=AOn4CLAYB00KwH59qvnKQItLvT_z0EzlkQ" alt="" class="src">
+                    </div>
+                    <div class="card-informa">
+                        <div class="videoname"><span>synthwave radio - beats to chill/game to</span></div>
+                        <div class="channelimg">
+                            <img src="https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s88-c-k-c0x00ffffff-no-rj" alt="" class="src">
+                        </div>
+                        <div class="desc">
+                            <div class="channelname"><span>Lofi Girl</span></div>
+                            <div class="channelviewers"><span>13.1M subscribers</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="videoimg">
+                        <img src="https://i.ytimg.com/vi/4xDzrJKXOOY/hq720_live.jpg?…AFwAcABBg==&rs=AOn4CLAYB00KwH59qvnKQItLvT_z0EzlkQ" alt="" class="src">
+                    </div>
+                    <div class="card-informa">
+                        <div class="videoname"><span>synthwave radio - beats to chill/game to</span></div>
+                        <div class="channelimg">
+                            <img src="https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s88-c-k-c0x00ffffff-no-rj" alt="" class="src">
+                        </div>
+                        <div class="desc">
+                            <div class="channelname"><span>Lofi Girl</span></div>
+                            <div class="channelviewers"><span>13.1M subscribers</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="videoimg">
+                        <img src="https://i.ytimg.com/vi/4xDzrJKXOOY/hq720_live.jpg?…AFwAcABBg==&rs=AOn4CLAYB00KwH59qvnKQItLvT_z0EzlkQ" alt="" class="src">
+                    </div>
+                    <div class="card-informa">
+                        <div class="videoname"><span>synthwave radio - beats to chill/game to</span></div>
+                        <div class="channelimg">
+                            <img src="https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s88-c-k-c0x00ffffff-no-rj" alt="" class="src">
+                        </div>
+                        <div class="desc">
+                            <div class="channelname"><span>Lofi Girl</span></div>
+                            <div class="channelviewers"><span>13.1M subscribers</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="videoimg">
+                        <img src="https://i.ytimg.com/vi/4xDzrJKXOOY/hq720_live.jpg?…AFwAcABBg==&rs=AOn4CLAYB00KwH59qvnKQItLvT_z0EzlkQ" alt="" class="src">
+                    </div>
+                    <div class="card-informa">
+                        <div class="videoname"><span>synthwave radio - beats to chill/game to</span></div>
+                        <div class="channelimg">
+                            <img src="https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s88-c-k-c0x00ffffff-no-rj" alt="" class="src">
+                        </div>
+                        <div class="desc">
+                            <div class="channelname"><span>Lofi Girl</span></div>
+                            <div class="channelviewers"><span>13.1M subscribers</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="videoimg">
+                        <img src="https://i.ytimg.com/vi/4xDzrJKXOOY/hq720_live.jpg?…AFwAcABBg==&rs=AOn4CLAYB00KwH59qvnKQItLvT_z0EzlkQ" alt="" class="src">
+                    </div>
+                    <div class="card-informa">
+                        <div class="videoname"><span>synthwave radio - beats to chill/game to</span></div>
+                        <div class="channelimg">
+                            <img src="https://yt3.ggpht.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s88-c-k-c0x00ffffff-no-rj" alt="" class="src">
+                        </div>
+                        <div class="desc">
+                            <div class="channelname"><span>Lofi Girl</span></div>
+                            <div class="channelviewers"><span>13.1M subscribers</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </main>
+    
+</body>
+</html>

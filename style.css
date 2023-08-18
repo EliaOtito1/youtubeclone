@@ -1,0 +1,271 @@
+html,body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    z-index: 2000;
+    display: flex;
+}
+
+
+.maintop-nav{
+    width: 100%;
+    height: 100px;
+    /* background-color:grey; */
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 2000;
+}
+/**  left Nav Menu items **/
+.lefnav-menu {
+
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 58px;
+    
+}
+.leftitemsnav{
+    display: flex;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    padding: 10px 20px;
+    gap: 50px;
+    background-color: white;
+    margin: 10px;
+}
+hr {
+    border: 1px solid darkgrey;
+}
+.home{
+    font-style: normal;
+    font-weight: bold;
+}
+.mainbar > i {
+    width: 30px;
+    height: 20px;
+}
+.youtubeicon > img{
+    width: 150px;
+    /* height: 90px; */
+    padding: 10px;
+}
+
+.mainnav-search{
+    width: 50%;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+.mainnav-search > input{
+    width: 80%;
+    border: 2px solid darkgrey;
+    border-radius: 50px 0 0 50px;
+    padding: 10px;
+}
+.click-search {
+    height: 32px;
+    padding: 3px 15px;
+    border: 1px solid darkgray;
+    border-radius: 0 50px 50px 0;
+    border-left: 0px;
+    display: flex;
+    align-items: center;
+}
+.microphone{
+    margin-left: 16px;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.rightnav-menu{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+
+.golive,
+.notifyme,
+.youraccount {
+    margin-left: 25px;
+    border: 1px solid #bdb4b4;
+    background-color: #dadada;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    text-align: center;
+}
+
+main > .left-nav{
+    top:100px;
+    width: 20%;
+    height: calc(100% - 100px);
+    background-color: whitesmoke;
+    position: fixed;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    
+}
+
+main > .right-nav{
+    width: 80%;
+    height: calc(100% - 100px);
+    background-color: white;
+    left:20%;
+    top:100px;
+    position: relative;
+   
+}
+
+main > .right-nav > .main-nav-bar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(111 111 43);
+    left: 20%;
+    position:fixed;
+    display: flex;
+    
+}
+.all{
+    display: flex;
+    margin: 26px;
+    padding: 10px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+}
+.main-nav-allitems{
+    display: flex;
+    margin: 26px;
+    padding: 10px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    align-items: center;
+    background-color: white;
+    font-style: normal;
+    font-weight: bold; 
+}
+.main-content{
+    width: 90%;
+    height: 100%;
+    background-color: navajowhite;
+    display: grid;
+    grid-template-columns: 480px 480px 480px;
+    position: fixed;
+    margin-top: 100px;
+    padding-top: 30px;
+    gap:30px;
+    overflow-y: scroll;
+   
+}
+
+.video-card{
+    width: 100%;
+    height: 100%;
+    background-color: lightsalmon;
+}
+.videoimg{
+    object-fit: cover;
+    display: flex;
+
+}
+.videoimg > img {
+    width: 480px;
+    aspect-ratio: auto 480 / 200;
+    height: 200px;
+
+}
+.card-informa{
+    display: flex;
+    height: 60%;
+    background-color: white;
+}
+.videoname {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.videoname > span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-style: revert;
+}
+.channelimg{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    top: 50px;
+    right: 286px;
+}
+
+.channelimg > img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border: 1px solid;
+    padding: 0px;
+    border-radius: 50px;
+}
+.desc{
+    display: flex;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    top: 50px;
+    right: 280px;
+}
+
+
+.channelname{
+    display: flex;
+    position: relative;
+    top: 5px;
+}
+
+.channelname > span {
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.channelviewers{
+    display: flex;
+    position: relative;
+    top: 47px;
+    right: 78px;
+}
+
+.channelviewers > span{
+
+}
