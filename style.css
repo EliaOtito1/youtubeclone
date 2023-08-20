@@ -174,7 +174,7 @@ main > .right-nav > .main-nav-bar{
 .main-content{
     width: 100%;
     height: 100%;
-    background-color: navajowhite;
+    background-color: white;
     display: grid;
     grid-template-columns: auto auto auto;
     position: relative;
@@ -188,7 +188,7 @@ main > .right-nav > .main-nav-bar{
 
 .video-card{
     height: 400px;
-    background-color: lightsalmon;
+    background-color: white;
 }
 .videoimg{
     object-fit: cover;
