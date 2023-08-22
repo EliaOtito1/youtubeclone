@@ -208,7 +208,11 @@ main > .right-nav > .main-nav-bar{
 }
 .videoname {
     line-height: 25px;
+    font-size: larger;
+    font-weight: 700;
+    font-style: normal;
 }
+
 .videoname > span {
     font-size: 1.3rem;
     font-weight: 600;
@@ -240,7 +244,9 @@ main > .right-nav > .main-nav-bar{
 
 
 .channelname{
-   
+    font-style: normal;
+    font-size: x-large;
+    font-weight: 700;
 }
 
 .channelname > span {
@@ -250,7 +256,9 @@ main > .right-nav > .main-nav-bar{
 
 }
 .channelviewers{
-    
+    ont-size: x-large;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .channelviewers > span{
