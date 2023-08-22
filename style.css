@@ -269,7 +269,7 @@ main > .right-nav > .main-nav-bar{
     }
    main > .right-nav > .main-nav-bar{
 
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
      
    }
