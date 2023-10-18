@@ -197,13 +197,13 @@ main > .right-nav > .main-nav-bar{
 
 }
 .videoimg > img {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
 
 }
 .card-informa{
     display: flex;
-    height: 50%;
+    /* height: 50%; */
     background-color: white;
 }
 .videoname {
@@ -211,6 +211,7 @@ main > .right-nav > .main-nav-bar{
     font-size: larger;
     font-weight: 700;
     font-style: normal;
+    width: 250px;
 }
 
 .videoname > span {
@@ -265,10 +266,10 @@ main > .right-nav > .main-nav-bar{
 
 }
 
-@media  (min-width:300px) and (max-width:900px) {
+@media  (min-width:400px) and (max-width:900px) {
 
-    body{
-        background-color: black;
+    .main-content{
+        background-color: olivedrab;
     }
     
     .main-content{
