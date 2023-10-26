@@ -17,8 +17,8 @@ async function displayRyan() {
     let showItems = getRyan.map(element => {
         let video = `<div class="video-card">
         <div class="videoimg">
-            <a target= "_blank" href="https://www.youtube.com/watch?v= ${element.snippet.resourceId.videoId}">
-                <img src="${element.snippet.thumbnails.medium.url}" alt="" class="src">
+            <a target="_blank" href="https://www.youtube.com/watch?v=${element.snippet.resourceId.videoId}">
+                <img src=${element.snippet.thumbnails.medium.url} alt="" class="src">
             </a>   
        </div>
 
@@ -28,7 +28,7 @@ async function displayRyan() {
            </div>
 
            <div class="desc">
-           <a target="_blank" href="https://www.youtube.com/watch?v= ${element.snippet.resourceId.videoId}">
+           <a target="_blank" href="https://www.youtube.com/watch?v=${element.snippet.resourceId.videoId}">
                <div class="videoname">${element.snippet.title}</div>
                <div class="channelname">${element.snippet.channelTitle}</div>
             </a>   
