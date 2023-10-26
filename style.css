@@ -276,18 +276,11 @@ main > .right-nav > .main-nav-bar{
 
         grid-template-columns: auto;
     }
-
-@media (min-width:300px) and (max-width:600px){
-    main-content{
-        background-color: olivedrab;
-    }
-    
-    .main-content{
-
-        grid-template-columns: auto;
+    .main > .right-nav > .main-nav-bar{
+        height:50px;
     }
 
-}    
+
    main > .right-nav > .main-nav-bar{
 
     /* flex-wrap: wrap; */
@@ -315,3 +308,26 @@ main > .right-nav > .main-nav-bar{
     display: none;
 }
 }
+@media (min-width:300px) and (max-width:600px){
+    main-content{
+        background-color: olivedrab;
+    }
+    
+    .main-content{
+
+        grid-template-columns: auto;
+    }
+    main > .right-nav > .main-nav-bar{
+        height: 60px
+    }
+    main > .left-nav {
+        display: none;
+    }
+    .main-nav-allitems{
+        margin:3px;
+        padding:3px;
+    }
+    .mainnav-search > input{
+        width:auto;
+    }
+}    
