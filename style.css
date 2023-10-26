@@ -148,6 +148,8 @@ main > .right-nav > .main-nav-bar{
     position:fixed;
     display: flex;
     z-index: 1000;
+    overflow-x: scroll;
+    align-items: center;
     
 }
 .all{
@@ -163,7 +165,7 @@ main > .right-nav > .main-nav-bar{
 }
 .main-nav-allitems{
     display: flex;
-    margin: 26px;
+    margin: 10px;
     padding: 10px;
     border: 1px solid #dadada;
     border-radius: 10px;
@@ -171,7 +173,7 @@ main > .right-nav > .main-nav-bar{
     background-color: white;
     font-style: normal;
     font-weight: bold; 
-    overflow-x: scroll;
+
 }
 .main-content{
     width: 100%;
@@ -185,6 +187,7 @@ main > .right-nav > .main-nav-bar{
     padding-top: 30px;
     gap: 30px;
     overflow-y: scroll;
+    overflow: scroll;
     
   
    
