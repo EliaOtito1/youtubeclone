@@ -299,6 +299,7 @@ main > .right-nav > .main-nav-bar{
 .main-nav-allitems{
     margin:3px;
     padding:3px;
+    overflow: auto;
 }
 .mainnav-search > input{
     width:auto;
@@ -333,6 +334,7 @@ main > .right-nav > .main-nav-bar{
     .main-nav-allitems{
         margin:3px;
         padding:3px;
+        overflow: auto;
     }
     .mainnav-search > input{
         width:auto;
