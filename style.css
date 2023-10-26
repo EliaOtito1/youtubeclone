@@ -266,7 +266,7 @@ main > .right-nav > .main-nav-bar{
 
 }
 
-@media  (min-width:400px) and (max-width:900px) {
+@media  (min-width:600px) and (max-width:900px) {
 
     .main-content{
         background-color: olivedrab;
@@ -276,6 +276,18 @@ main > .right-nav > .main-nav-bar{
 
         grid-template-columns: auto;
     }
+
+@media (min-width:300px) and (max-width:600px){
+    main-content{
+        background-color: olivedrab;
+    }
+    
+    .main-content{
+
+        grid-template-columns: auto;
+    }
+
+}    
    main > .right-nav > .main-nav-bar{
 
     /* flex-wrap: wrap; */
