@@ -48,8 +48,10 @@ async function displayCart (){
                 </div>
 
                 <div class="desc">
+                <a target="_blank" href="https://www.youtube.com/watch?v=${element.snippet.resourceId.videoId}">
                     <div class="videoname"><span>${element.snippet.title}</span></div>
                     <div class="channelname"><span>${element.snippet.channelTitle}</span></div>
+                </a>    
                 <div class="channelviewers"><span>13.1M subscribers</span></div>
             </div>
             </div>` 
