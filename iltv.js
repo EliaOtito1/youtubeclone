@@ -1,5 +1,5 @@
-async function liveNews(){
-    let getData = fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=45&playlistId=PLmWa9ZZLlCjvZFEcFImKll3tuehnPPKob&key=AIzaSyA6aG6XTAj5ktnvySRT_2nwTna45arwZ2s")
+async function iltvData(){
+    let getData = fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=24&playlistId=PLO18swbyieS2kGyn9JaazYxOeyhvUbL_Z&key=AIzaSyA6aG6XTAj5ktnvySRT_2nwTna45arwZ2s")
     let response = (await getData).json();
     let objData = await response
     let result = await objData.items;
@@ -10,8 +10,8 @@ async function liveNews(){
 
 // ryanFetch()
 
-async function displayLive() {
-    let getRyan = await liveNews()
+async function iltvLive() {
+    let getRyan = await iltvData()
     // console.log(getRyan)
     let videoCard = document.querySelector(".main-content")
     let showItems = getRyan.map(element => {
@@ -42,4 +42,4 @@ videoCard.innerHTML=showItems.join("")
    // console.log(getRyan)
 }
 
-displayLive()
+iltvLive()
