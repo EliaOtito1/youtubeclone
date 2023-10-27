@@ -141,7 +141,7 @@ main > .right-nav{
 }
 
 main > .right-nav > .main-nav-bar{
-    width: 100%;
+    width: 80%;
     height: 100px;
     background-color: rgb(111 111 43);
     left: 20%;
