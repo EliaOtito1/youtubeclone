@@ -285,6 +285,7 @@ main > .right-nav > .main-nav-bar{
     }
     .main > .right-nav > .main-nav-bar{
         height:60px;
+        left: 0%;
     }
 
 
@@ -333,8 +334,10 @@ main > .right-nav > .main-nav-bar{
         grid-template-columns: auto;
     }
     main > .right-nav > .main-nav-bar{
-        height: 60px
+        height: 60px;
+        left: 0%;
     }
+    
     main > .left-nav {
         display: none;
     }
