@@ -1,5 +1,5 @@
-async function shawRyan(){
-    let getData = fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=23&playlistId=PL4pqo9Uoh0WuUKxw0BmaK1yrg9Kd7E4lk&key=AIzaSyA6aG6XTAj5ktnvySRT_2nwTna45arwZ2s")
+async function theTrump(){
+    let getData = fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=100&playlistId=PLKOAoICmbyV1S5W2KNsoH92SD9iT8d4z9&key=AIzaSyA6aG6XTAj5ktnvySRT_2nwTna45arwZ2s")
     let response = (await getData).json();
     let objData = await response
     let result = await objData.items;
@@ -10,8 +10,8 @@ async function shawRyan(){
 
 // ryanFetch()
 
-async function displayRyan() {
-    let getRyan = await shawRyan()
+async function displayTrump() {
+    let getRyan = await theTrump()
     // console.log(getRyan)
     let videoCard = document.querySelector(".main-content")
     let showItems = getRyan.map(element => {
@@ -42,4 +42,4 @@ videoCard.innerHTML=showItems.join("")
    // console.log(getRyan)
 }
 
-displayRyan()
+displayTrump()
