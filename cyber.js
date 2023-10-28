@@ -1,5 +1,5 @@
-async function chillOut(){
-    let getData = fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PL1950BA22822B1283&key=AIzaSyA6aG6XTAj5ktnvySRT_2nwTna45arwZ2s")
+async function simplyCyber(){
+    let getData = fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=500&playlistId=PL4Q-ttyNIRApb780rqvAlGtrpXi3JaU9J&key=AIzaSyA6aG6XTAj5ktnvySRT_2nwTna45arwZ2s")
     let response = (await getData).json();
     let objData = await response
     let result = await objData.items;
@@ -10,8 +10,8 @@ async function chillOut(){
 
 // ryanFetch()
 
-async function chillLive() {
-    let getRyan = await chillOut()
+async function displayCyber() {
+    let getRyan = await simplyCyber()
     // console.log(getRyan)
     let videoCard = document.querySelector(".main-content")
     let showItems = getRyan.map(element => {
@@ -42,12 +42,12 @@ videoCard.innerHTML=showItems.join("")
    // console.log(getRyan)
 }
 
-chillLive()
+displayCyber()
 
 let search = document.querySelector("#search")
 search.addEventListener('keyup',async function(e) {
     let searchValue = e.target.value.toUpperCase()
-    let getData = await chillOut()
+    let getData = await simplyCyber()
     let filteritems = getData.filter(item => {
         let title = item.snippet.title.toUpperCase()
         return title.includes(searchValue)
