@@ -327,6 +327,9 @@ main > .right-nav > .main-nav-bar{
 .youtubeicon > img{
     width:100px;
 }
+.microphone{
+    display: none;
+}
 }
 
 @media (min-width:300px) and (max-width:600px){
@@ -360,5 +363,8 @@ main > .right-nav > .main-nav-bar{
 
     .youtubeicon > img{
         width:100px;
+    }
+    .microphone{
+        display: none;
     }
 }    
