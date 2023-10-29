@@ -287,7 +287,9 @@ main > .right-nav > .main-nav-bar{
         height:60px;
         left: 0%;
     }
-
+    .rightnav-menu {
+        display: none;
+    }
 
    main > .right-nav > .main-nav-bar{
 
@@ -322,6 +324,9 @@ main > .right-nav > .main-nav-bar{
 .rightnav-menu{
     display: none;
 }
+.youtubeicon > img{
+    width:100px;
+}
 }
 
 @media (min-width:300px) and (max-width:600px){
@@ -348,5 +353,12 @@ main > .right-nav > .main-nav-bar{
     }
     .mainnav-search > input{
         width:auto;
+    }
+    .rightnav-menu {
+        display: none;
+    }
+
+    .youtubeicon > img{
+        width:100px;
     }
 }    
