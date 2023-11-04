@@ -69,8 +69,6 @@ displayCart()
 let search = document.querySelector('#search')
 //  console.log(search)
 
-
-
 // Implementing suggestion; and define in global :
 
 let sugg =  document.querySelector('.sugg')
