@@ -69,6 +69,16 @@ displayCart()
 let search = document.querySelector('#search')
 //  console.log(search)
 
+
+
+// Implementing suggestion; and define in global :
+
+let sugg =  document.querySelector('.sugg')
+let showsugg = document.querySelector('.showsugg')
+
+
+
+
 search.addEventListener('keyup',  async function (e) {
     let searchValue = e.target.value.toUpperCase()
 
@@ -81,6 +91,20 @@ search.addEventListener('keyup',  async function (e) {
         // return filteredItems
     })
     //  console.log(filteredItems)
+
+    
+   
+    sugg.setAttribute('id', 'sugg')
+    let ResSugg = filteredItems.map(element => {
+        let resGet = `<a target="_blank" href="https://www.youtube.com/watch?v=${element.snippet.resourceId.videoId}"><li>${element.snippet.title}</li></a>`
+        return resGet
+    })
+
+    showsugg.innerHTML=ResSugg.join("")
+   
+
+    
+
    
     let videoCard = document.querySelector(".main-content")
     let renderItems = filteredItems.map((data) => {
@@ -109,5 +133,14 @@ return video
     })
 videoCard.innerHTML=renderItems.join("")     
 })
+
+
+//clearing dynamic suggestion once we click the body
+
+let clearSugg = document.body.addEventListener('click',function(){
+    showsugg.innerHTML="";
+    return clearSugg
+})
+
 
 

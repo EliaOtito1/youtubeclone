@@ -46,6 +46,12 @@ displayRyan()
 
 // implementing search video:
 let search = document.querySelector("#search")
+
+// implementing suggestion on search:
+let sugg = document.querySelector(".sugg")
+let Ressugg = document.querySelector(".showsugg")
+
+
 search.addEventListener('keyup',async function(e) {
     let searchValue = e.target.value.toUpperCase()
     let getData = await shawRyan()
@@ -54,6 +60,19 @@ search.addEventListener('keyup',async function(e) {
         return title.includes(searchValue)
     })
     // console.log(filteritems)
+
+// implementing suggestion on the search input field:
+
+
+sugg.setAttribute('id', 'sugg')
+let suggDisplay = filteritems.map(element =>  {
+    let resdisplay = `
+    <a target="_blank" href="https://www.youtube.com/watch?v=${element.snippet.resourceId.videoId}"><li>${element.snippet.title}</li></a>`
+    return resdisplay
+
+})
+
+Ressugg.innerHTML=suggDisplay.join("")
 
 let videoCard = document.querySelector(".main-content")
 
@@ -82,4 +101,13 @@ let renderItems = filteritems.map((element) => {
         return video
 })
 videoCard.innerHTML=renderItems.join("")
+
+})
+
+
+// calling again suggestion when user want to do another search:
+
+let clearsugg = document.body.addEventListener('click', () => {
+    Ressugg.innerHTML="";
+   
 })

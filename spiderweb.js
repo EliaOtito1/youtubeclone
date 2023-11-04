@@ -44,8 +44,11 @@ videoCard.innerHTML=showItems.join("")
 
 displayLive()
 
-// implementing search video:
+// implementing suggestion on search:
+let sugg = document.querySelector(".sugg")
+let Ressugg = document.querySelector(".showsugg")
 
+// implementing search video:
 let search = document.querySelector("#search")
 search.addEventListener('keyup',async function(e) {
     let searchValue = e.target.value.toUpperCase()
@@ -56,6 +59,16 @@ search.addEventListener('keyup',async function(e) {
     })
     // console.log(filteritems)
 
+    sugg.setAttribute('id', 'sugg')
+    let suggDisplay = filteritems.map(element =>  {
+        let resdisplay = `
+        <a target="_blank" href="https://www.youtube.com/watch?v=${element.snippet.resourceId.videoId}"><li>${element.snippet.title}</li></a>`
+        return resdisplay
+    
+    })
+    
+    Ressugg.innerHTML=suggDisplay.join("")
+        
 let videoCard = document.querySelector(".main-content")
 
 let renderItems = filteritems.map((element) => {
@@ -83,4 +96,10 @@ let renderItems = filteritems.map((element) => {
         return video
 })
 videoCard.innerHTML=renderItems.join("")
+})
+
+//clearing dynamic suggestion once we click the body
+let clearsugg = document.body.addEventListener('click', () => {
+    Ressugg.innerHTML="";
+   
 })

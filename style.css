@@ -74,6 +74,34 @@ hr {
     border-radius: 50px 0 0 50px;
     padding: 10px;
 }
+#sugg {
+    background-color:white;
+    position: absolute;
+    top: 69px;
+    left: 307px;
+    /* border: 2px solid darkolivegreen; */
+    border-radius: 18px;
+    width: 382px;
+    /* height: 200px; */
+    margin: 1px;
+    
+}
+
+#sugg>div>ul>a>li{
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    color:black;
+
+}
+
+#sugg>div>ul>a>li:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+#sugg>div>ul {
+    list-style: none;
+}
 .click-search {
     height: 32px;
     padding: 3px 15px;
