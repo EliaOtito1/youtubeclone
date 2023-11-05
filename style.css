@@ -78,7 +78,7 @@ hr {
     background-color:white;
     position: absolute;
     top: 69px;
-    left: 307px;
+    left: 395px;
     /* border: 2px solid darkolivegreen; */
     border-radius: 18px;
     width: 382px;
@@ -292,7 +292,7 @@ main > .right-nav > .main-nav-bar{
 
 }
 .channelviewers{
-    ont-size: x-large;
+    font-size: x-large;
     font-weight: 700;
     font-style: normal;
 }
@@ -302,6 +302,9 @@ main > .right-nav > .main-nav-bar{
 }
 
 @media  (min-width:600px) and (max-width:900px) {
+    body {
+        background-color: black;
+    }
 
     .main-content{
         background-color: olivedrab;
@@ -319,12 +322,7 @@ main > .right-nav > .main-nav-bar{
         display: none;
     }
 
-   main > .right-nav > .main-nav-bar{
-
-    /* flex-wrap: wrap; */
-
-     
-   }
+  
 
    .leftitemsnav {
     display: none;
@@ -333,15 +331,15 @@ main > .right-nav > .main-nav-bar{
    .youtubeicon > img {
     display: none;
 
-}
-.main-nav-allitems{
+    }
+    .main-nav-allitems{
     margin:3px;
     padding:3px;
     
-}
-.mainnav-search > input{
+    }
+    .mainnav-search > input{
     width:auto;
-}
+    }
 
 .mainbar > i {
     display: none;
@@ -358,9 +356,36 @@ main > .right-nav > .main-nav-bar{
 .microphone{
     display: none;
 }
+#sugg {
+    background-color:white;
+    position: absolute;
+    top: 69px;
+    left: 200px;
+    /* border: 2px solid darkolivegreen; */
+    border-radius: 18px;
+    width: 382px;
+    /* height: 200px; */
+    margin: 1px;
+    
+}
+
 }
 
 @media (min-width:300px) and (max-width:600px){
+
+    #sugg {
+        background-color:white;
+        position: absolute;
+        top: 69px;
+        left:100px;
+        /* border: 2px solid darkolivegreen; */
+        border-radius: 18px;
+        width: 382px;
+        /* height: 200px; */
+        margin: 1px;
+        
+    }
+
     main-content{
         background-color: olivedrab;
     }
@@ -395,4 +420,18 @@ main > .right-nav > .main-nav-bar{
     .microphone{
         display: none;
     }
+
+    #sugg {
+        background-color: white;
+        position: absolute;
+        top: 69px;
+        left: 116px;
+        /* border: 2px solid darkolivegreen; */
+        border-radius: 18px;
+        width: 200px;
+        /* height: 200px; */
+        margin: 1px;
+        }
+       
+
 }    
