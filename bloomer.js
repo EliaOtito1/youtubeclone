@@ -45,19 +45,17 @@ videoCard.innerHTML=showItems.join("")
 bloomLive()
 
 
-// implementing suggestion on search:
-let sugg = document.querySelector(".sugg")
-let Ressugg = document.querySelector(".showsugg")
+    // implementing suggestion on search:
+    let sugg = document.querySelector(".sugg")
+    let Ressugg = document.querySelector(".showsugg")
 
-//Implementing Video search
-let search = document.querySelector('#search')
+    //Implementing Video search
+    let search = document.querySelector('#search')
 
-search.addEventListener('keyup', async function(e) {
+    search.addEventListener('keyup', async function(e) {
 
     let searchValue = e.target.value.toUpperCase()
-
     let getData = await bloomer()
-
     let filterItems = getData.filter((item) => {
     let title = item.snippet.title.toUpperCase()
      return title.includes(searchValue)  
@@ -66,7 +64,7 @@ search.addEventListener('keyup', async function(e) {
 
     // implementing dynamic suggestion based on our API Fetch dataset
     sugg.setAttribute('id', 'sugg')
-    let suggDisplay = filteritems.map(element =>  {
+    let suggDisplay = filterItems.map(element =>  {
     let resdisplay = `
     <a target="_blank" href="https://www.youtube.com/watch?v=${element.snippet.resourceId.videoId}"><li>${element.snippet.title}</li></a>`
     return resdisplay
