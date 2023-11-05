@@ -67,7 +67,7 @@ search.addEventListener('keyup',  async function (e) {
 
 
     sugg.setAttribute('id', 'sugg')
-    let suggDisplay = filteritems.map(element =>  {
+    let suggDisplay = filteredItems.map(element =>  {
     let resdisplay = `
     <a target="_blank" href="https://www.youtube.com/watch?v=${element.snippet.resourceId.videoId}"><li>${element.snippet.title}</li></a>`
     return resdisplay
