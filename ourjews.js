@@ -1,5 +1,5 @@
 async function ourJews(){
-    let getData = fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLBPDdJBXRyTMlqSzI7o1jTbAhM2BgQRsm&key=AIzaSyA6aG6XTAj5ktnvySRT_2nwTna45arwZ2s")
+    let getData = fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=1&playlistId=PLBPDdJBXRyTMlqSzI7o1jTbAhM2BgQRsm&key=AIzaSyA6aG6XTAj5ktnvySRT_2nwTna45arwZ2s")
     let response = (await getData).json();
     let objData = await response
     let result = await objData.items;

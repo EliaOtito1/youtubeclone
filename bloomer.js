@@ -1,5 +1,5 @@
 async function bloomer(){
-    let getData = fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=18&playlistId=PLGaYlBJIOoa95Dvos1OgQAQnGWHWrvUew&key=AIzaSyA6aG6XTAj5ktnvySRT_2nwTna45arwZ2s")
+    let getData = fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=8&playlistId=PLGaYlBJIOoa95Dvos1OgQAQnGWHWrvUew&key=AIzaSyA6aG6XTAj5ktnvySRT_2nwTna45arwZ2s")
     let response = (await getData).json();
     let objData = await response
     let result = await objData.items;
